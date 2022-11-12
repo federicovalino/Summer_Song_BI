@@ -1,0 +1,1190 @@
+
+
+============================== 2022-11-12 02:09:29.744896 | 5c464b9b-d1e3-435c-97a8-e4894ec1b406 ==============================
+[0m02:09:29.744896 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:09:29.746809 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:09:29.746809 [debug] [MainThread]: Tracking: tracking
+[0m02:09:29.768587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D6B250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D69030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D6B460>]}
+[0m02:09:29.798578 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.Summer_Song'
+[0m02:09:29.846534 [debug] [MainThread]: Executing "git --help"
+[0m02:09:29.916494 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:09:29.918502 [debug] [MainThread]: STDERR: "b''"
+[0m02:09:29.932485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D99090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D9A6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D67D98130>]}
+
+
+============================== 2022-11-12 02:10:41.231364 | c36be521-deb5-4459-938e-f2ff619965c5 ==============================
+[0m02:10:41.231364 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:10:41.232363 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:10:41.234363 [debug] [MainThread]: Tracking: tracking
+[0m02:10:41.256350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE60E72B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE60E5300>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE60E4DF0>]}
+[0m02:10:41.388275 [debug] [MainThread]: Executing "git --help"
+[0m02:10:41.464879 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:10:41.464879 [debug] [MainThread]: STDERR: "b''"
+[0m02:10:41.475872 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m02:10:41.476873 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:10:41.477871 [debug] [MainThread]: On debug: select 1 as id
+[0m02:10:41.477871 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:10:41.552582 [debug] [MainThread]: SQL status: SELECT 1 in 0.07 seconds
+[0m02:10:41.554583 [debug] [MainThread]: On debug: Close
+[0m02:10:41.556580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE6234700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE625C4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020AE625C970>]}
+[0m02:10:42.231504 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-12 02:12:46.382643 | cc780a57-80c2-4106-8193-b191a978db2d ==============================
+[0m02:12:46.382643 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:12:46.384604 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:12:46.385604 [debug] [MainThread]: Tracking: tracking
+[0m02:12:46.406503 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306D5B2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306D58100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306D5B4C0>]}
+[0m02:12:46.534333 [debug] [MainThread]: Executing "git --help"
+[0m02:12:46.603008 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:12:46.604000 [debug] [MainThread]: STDERR: "b''"
+[0m02:12:46.610997 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m02:12:46.611996 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:12:46.611996 [debug] [MainThread]: On debug: select 1 as id
+[0m02:12:46.612995 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:12:46.688952 [debug] [MainThread]: SQL status: SELECT 1 in 0.08 seconds
+[0m02:12:46.689951 [debug] [MainThread]: On debug: Close
+[0m02:12:46.692950 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306EAAF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306ECC490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B306ECC940>]}
+[0m02:12:47.332226 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-12 02:17:35.483158 | 8f397f8f-5b59-4a1b-918c-0ecf270e295e ==============================
+[0m02:17:35.483158 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:17:35.484157 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:17:35.489161 [debug] [MainThread]: Tracking: tracking
+[0m02:17:35.515140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D1BC550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D1BCA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D1BC820>]}
+[0m02:17:35.548691 [info ] [MainThread]: Partial parse save file not found. Starting full parse.
+[0m02:17:35.549691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8f397f8f-5b59-4a1b-918c-0ecf270e295e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D1BFA90>]}
+[0m02:17:36.537085 [debug] [MainThread]: Parsing macros\adapters.sql
+[0m02:17:36.590431 [debug] [MainThread]: Parsing macros\catalog.sql
+[0m02:17:36.595458 [debug] [MainThread]: Parsing macros\relations.sql
+[0m02:17:36.598424 [debug] [MainThread]: Parsing macros\materializations\snapshot_merge.sql
+[0m02:17:36.602423 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m02:17:36.605421 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m02:17:36.610418 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m02:17:36.625409 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m02:17:36.628407 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m02:17:36.631406 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m02:17:36.634404 [debug] [MainThread]: Parsing macros\adapters\apply_grants.sql
+[0m02:17:36.670008 [debug] [MainThread]: Parsing macros\adapters\columns.sql
+[0m02:17:36.693994 [debug] [MainThread]: Parsing macros\adapters\freshness.sql
+[0m02:17:36.699991 [debug] [MainThread]: Parsing macros\adapters\indexes.sql
+[0m02:17:36.710986 [debug] [MainThread]: Parsing macros\adapters\metadata.sql
+[0m02:17:36.728975 [debug] [MainThread]: Parsing macros\adapters\persist_docs.sql
+[0m02:17:36.738969 [debug] [MainThread]: Parsing macros\adapters\relation.sql
+[0m02:17:36.773952 [debug] [MainThread]: Parsing macros\adapters\schema.sql
+[0m02:17:36.777950 [debug] [MainThread]: Parsing macros\etc\datetime.sql
+[0m02:17:36.794940 [debug] [MainThread]: Parsing macros\etc\statement.sql
+[0m02:17:36.809933 [debug] [MainThread]: Parsing macros\generic_test_sql\accepted_values.sql
+[0m02:17:36.813929 [debug] [MainThread]: Parsing macros\generic_test_sql\not_null.sql
+[0m02:17:36.816930 [debug] [MainThread]: Parsing macros\generic_test_sql\relationships.sql
+[0m02:17:36.821926 [debug] [MainThread]: Parsing macros\generic_test_sql\unique.sql
+[0m02:17:36.824924 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_alias.sql
+[0m02:17:36.827921 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_database.sql
+[0m02:17:36.830919 [debug] [MainThread]: Parsing macros\get_custom_name\get_custom_schema.sql
+[0m02:17:36.840916 [debug] [MainThread]: Parsing macros\materializations\configs.sql
+[0m02:17:36.845911 [debug] [MainThread]: Parsing macros\materializations\hooks.sql
+[0m02:17:36.855905 [debug] [MainThread]: Parsing macros\materializations\models\incremental\column_helpers.sql
+[0m02:17:36.865899 [debug] [MainThread]: Parsing macros\materializations\models\incremental\incremental.sql
+[0m02:17:36.890885 [debug] [MainThread]: Parsing macros\materializations\models\incremental\is_incremental.sql
+[0m02:17:36.893883 [debug] [MainThread]: Parsing macros\materializations\models\incremental\merge.sql
+[0m02:17:36.932862 [debug] [MainThread]: Parsing macros\materializations\models\incremental\on_schema_change.sql
+[0m02:17:36.970840 [debug] [MainThread]: Parsing macros\materializations\models\table\create_table_as.sql
+[0m02:17:36.980835 [debug] [MainThread]: Parsing macros\materializations\models\table\table.sql
+[0m02:17:36.997824 [debug] [MainThread]: Parsing macros\materializations\models\view\create_or_replace_view.sql
+[0m02:17:37.007818 [debug] [MainThread]: Parsing macros\materializations\models\view\create_view_as.sql
+[0m02:17:37.011815 [debug] [MainThread]: Parsing macros\materializations\models\view\helpers.sql
+[0m02:17:37.013815 [debug] [MainThread]: Parsing macros\materializations\models\view\view.sql
+[0m02:17:37.029805 [debug] [MainThread]: Parsing macros\materializations\seeds\helpers.sql
+[0m02:17:37.064785 [debug] [MainThread]: Parsing macros\materializations\seeds\seed.sql
+[0m02:17:37.081775 [debug] [MainThread]: Parsing macros\materializations\snapshots\helpers.sql
+[0m02:17:37.111758 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot.sql
+[0m02:17:37.140743 [debug] [MainThread]: Parsing macros\materializations\snapshots\snapshot_merge.sql
+[0m02:17:37.143739 [debug] [MainThread]: Parsing macros\materializations\snapshots\strategies.sql
+[0m02:17:37.179719 [debug] [MainThread]: Parsing macros\materializations\tests\helpers.sql
+[0m02:17:37.182718 [debug] [MainThread]: Parsing macros\materializations\tests\test.sql
+[0m02:17:37.193711 [debug] [MainThread]: Parsing macros\materializations\tests\where_subquery.sql
+[0m02:17:37.197710 [debug] [MainThread]: Parsing macros\utils\any_value.sql
+[0m02:17:37.199709 [debug] [MainThread]: Parsing macros\utils\bool_or.sql
+[0m02:17:37.202718 [debug] [MainThread]: Parsing macros\utils\cast_bool_to_text.sql
+[0m02:17:37.207703 [debug] [MainThread]: Parsing macros\utils\concat.sql
+[0m02:17:37.209703 [debug] [MainThread]: Parsing macros\utils\data_types.sql
+[0m02:17:37.222825 [debug] [MainThread]: Parsing macros\utils\dateadd.sql
+[0m02:17:37.225823 [debug] [MainThread]: Parsing macros\utils\datediff.sql
+[0m02:17:37.227822 [debug] [MainThread]: Parsing macros\utils\date_trunc.sql
+[0m02:17:37.229821 [debug] [MainThread]: Parsing macros\utils\escape_single_quotes.sql
+[0m02:17:37.231819 [debug] [MainThread]: Parsing macros\utils\except.sql
+[0m02:17:37.232819 [debug] [MainThread]: Parsing macros\utils\hash.sql
+[0m02:17:37.237817 [debug] [MainThread]: Parsing macros\utils\intersect.sql
+[0m02:17:37.240816 [debug] [MainThread]: Parsing macros\utils\last_day.sql
+[0m02:17:37.245813 [debug] [MainThread]: Parsing macros\utils\length.sql
+[0m02:17:37.247811 [debug] [MainThread]: Parsing macros\utils\listagg.sql
+[0m02:17:37.250809 [debug] [MainThread]: Parsing macros\utils\literal.sql
+[0m02:17:37.257805 [debug] [MainThread]: Parsing macros\utils\position.sql
+[0m02:17:37.260803 [debug] [MainThread]: Parsing macros\utils\replace.sql
+[0m02:17:37.262802 [debug] [MainThread]: Parsing macros\utils\right.sql
+[0m02:17:37.264801 [debug] [MainThread]: Parsing macros\utils\safe_cast.sql
+[0m02:17:37.266801 [debug] [MainThread]: Parsing macros\utils\split_part.sql
+[0m02:17:37.276794 [debug] [MainThread]: Parsing tests\generic\builtin.sql
+[0m02:17:38.172733 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:17:38.197723 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:17:38.348634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8f397f8f-5b59-4a1b-918c-0ecf270e295e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D29DEA0>]}
+[0m02:17:38.363628 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8f397f8f-5b59-4a1b-918c-0ecf270e295e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D3075E0>]}
+[0m02:17:38.364625 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m02:17:38.366624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8f397f8f-5b59-4a1b-918c-0ecf270e295e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D1BC5B0>]}
+[0m02:17:38.372620 [info ] [MainThread]: 
+[0m02:17:38.373621 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m02:17:38.409600 [info ] [MainThread]: 
+[0m02:17:38.412598 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m02:17:38.427590 [info ] [MainThread]: 
+[0m02:17:38.429588 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m02:17:38.431587 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D29DC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D29DFF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001873D29CBE0>]}
+
+
+============================== 2022-11-12 02:19:57.758878 | aca248d4-8bfb-4b73-8dcc-a0e27e2ac2c4 ==============================
+[0m02:19:57.758878 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:19:57.759878 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:19:57.760877 [debug] [MainThread]: Tracking: tracking
+[0m02:19:57.781864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9EFDCF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9F1C9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9F1C730>]}
+[0m02:19:57.876826 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m02:19:57.877826 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m02:19:57.886442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'aca248d4-8bfb-4b73-8dcc-a0e27e2ac2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4DA0580D0>]}
+[0m02:19:57.895436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'aca248d4-8bfb-4b73-8dcc-a0e27e2ac2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9FB1990>]}
+[0m02:19:57.896434 [info ] [MainThread]: Found 2 models, 4 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m02:19:57.897433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aca248d4-8bfb-4b73-8dcc-a0e27e2ac2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9EFDCF0>]}
+[0m02:19:57.899435 [info ] [MainThread]: 
+[0m02:19:57.901431 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m02:19:57.916424 [info ] [MainThread]: 
+[0m02:19:57.919421 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m02:19:57.920420 [info ] [MainThread]: 
+[0m02:19:57.922419 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m02:19:57.923419 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9FB1390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9FB14E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4D9FB0F10>]}
+
+
+============================== 2022-11-12 02:25:19.845233 | 11ed8d03-8b49-45f4-828f-57a55fe7b8ac ==============================
+[0m02:25:19.845233 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:25:19.846773 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m02:25:19.848779 [debug] [MainThread]: Tracking: tracking
+[0m02:25:19.866768 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E33C520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E33CA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E33C7F0>]}
+[0m02:25:19.954696 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:25:19.955696 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:25:19.956698 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:25:19.975686 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:25:20.000673 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:25:20.049653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E472770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E471480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE9E466800>]}
+
+
+============================== 2022-11-12 02:25:39.665755 | a71a85c9-e270-4d8f-9c5a-c57856e1ddb3 ==============================
+[0m02:25:39.665755 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:25:39.667103 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:25:39.669105 [debug] [MainThread]: Tracking: tracking
+[0m02:25:39.690096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D550D0520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D550D0A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D550D07F0>]}
+[0m02:25:39.773045 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:25:39.774044 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:25:39.775045 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:25:39.791036 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:25:39.812863 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:25:39.856839 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D55202740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D55201330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022D551F5CC0>]}
+
+
+============================== 2022-11-12 02:26:09.183542 | 1fa3334b-6a15-4644-81a8-086de6031ed9 ==============================
+[0m02:26:09.183542 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:26:09.185519 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:26:09.186519 [debug] [MainThread]: Tracking: tracking
+[0m02:26:09.207508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001641056C730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001641056C9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001641056C7F0>]}
+[0m02:26:09.287464 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:26:09.289461 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:26:09.289461 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:26:09.308450 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:26:09.325439 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:26:09.362433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001641069E710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001641069CA90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016410696A10>]}
+
+
+============================== 2022-11-12 02:33:10.786828 | 703fc92a-88bc-4b41-97b5-1d0d55d6c1f5 ==============================
+[0m02:33:10.786828 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:33:10.787827 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:33:10.788825 [debug] [MainThread]: Tracking: tracking
+[0m02:33:10.808813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB2250550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB2250A30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB22507C0>]}
+[0m02:33:10.929744 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:33:10.930742 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:33:10.931742 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:33:10.955729 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:33:10.981714 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:33:11.061667 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB237E7A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB237C8B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025BB2375810>]}
+
+
+============================== 2022-11-12 02:33:26.144101 | 287b96d9-fc95-450d-8b40-d4cc956d7d7c ==============================
+[0m02:33:26.144101 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:33:26.146081 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:33:26.147079 [debug] [MainThread]: Tracking: tracking
+[0m02:33:26.170074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA834DEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA83709A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA8370730>]}
+[0m02:33:26.254020 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:33:26.255019 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:33:26.255019 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:33:26.273021 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:33:26.290012 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:33:26.328555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA849E710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA849D0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019BA8495BD0>]}
+
+
+============================== 2022-11-12 02:33:52.501963 | f64d3cf6-3fb2-474a-aad1-8d2391c60a7e ==============================
+[0m02:33:52.501963 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:33:52.503075 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m02:33:52.504079 [debug] [MainThread]: Tracking: tracking
+[0m02:33:52.523066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB10EB2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB10E8100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB10EB4C0>]}
+[0m02:33:52.652676 [debug] [MainThread]: Executing "git --help"
+[0m02:33:52.721173 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:33:52.722172 [debug] [MainThread]: STDERR: "b''"
+[0m02:33:52.731168 [debug] [MainThread]: Acquiring new postgres connection "debug"
+[0m02:33:52.732169 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:33:52.732169 [debug] [MainThread]: On debug: select 1 as id
+[0m02:33:52.733166 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:33:52.797641 [debug] [MainThread]: SQL status: SELECT 1 in 0.06 seconds
+[0m02:33:52.799639 [debug] [MainThread]: On debug: Close
+[0m02:33:52.801637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB1234700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB125C490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024EB125C940>]}
+[0m02:33:53.556927 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2022-11-12 02:34:01.669612 | ec608c3f-5c4d-4ddd-8591-0a65839c6420 ==============================
+[0m02:34:01.669612 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:34:01.670611 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:34:01.671596 [debug] [MainThread]: Tracking: tracking
+[0m02:34:01.696581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF73F00730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF73F009D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF73F007F0>]}
+[0m02:34:01.778536 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m02:34:01.778536 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:34:01.779549 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:34:01.794540 [debug] [MainThread]: 1699: static parser successfully parsed example\my_first_dbt_model.sql
+[0m02:34:01.811530 [debug] [MainThread]: 1699: static parser successfully parsed example\my_second_dbt_model.sql
+[0m02:34:01.848496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF7402E740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF7402C2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FF74026680>]}
+
+
+============================== 2022-11-12 02:34:34.174403 | 4ea5793e-a7ed-42ac-acfe-ecfa2fd02668 ==============================
+[0m02:34:34.174403 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:34:34.175402 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:34:34.176400 [debug] [MainThread]: Tracking: tracking
+[0m02:34:34.202384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C72DEA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C7509A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C750730>]}
+[0m02:34:34.316319 [debug] [MainThread]: Partial parsing enabled: 3 files deleted, 0 files added, 0 files changed.
+[0m02:34:34.317318 [debug] [MainThread]: Partial parsing: deleted file: dbt_summersong_etl://models\example\my_first_dbt_model.sql
+[0m02:34:34.318319 [debug] [MainThread]: Partial parsing: deleted file: dbt_summersong_etl://models\example\my_second_dbt_model.sql
+[0m02:34:34.324314 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_summersong_etl.example
+
+[0m02:34:34.342307 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4ea5793e-a7ed-42ac-acfe-ecfa2fd02668', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C88C0D0>]}
+[0m02:34:34.351300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ea5793e-a7ed-42ac-acfe-ecfa2fd02668', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C840940>]}
+[0m02:34:34.353300 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m02:34:34.355300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ea5793e-a7ed-42ac-acfe-ecfa2fd02668', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C72DEA0>]}
+[0m02:34:34.357297 [info ] [MainThread]: 
+[0m02:34:34.358300 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m02:34:34.374287 [info ] [MainThread]: 
+[0m02:34:34.379284 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m02:34:34.382282 [info ] [MainThread]: 
+[0m02:34:34.384281 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m02:34:34.392277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C84EEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C84EF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FD2C84E3E0>]}
+
+
+============================== 2022-11-12 02:35:57.477996 | d12afd3a-6a46-442e-9872-0cd9980c3510 ==============================
+[0m02:35:57.477996 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:35:57.479993 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:35:57.480993 [debug] [MainThread]: Tracking: tracking
+[0m02:35:57.502004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AD90730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AD909D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AD907F0>]}
+[0m02:35:57.575237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AE7CC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AE7CB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99AE7CB20>]}
+
+
+============================== 2022-11-12 02:36:32.796149 | 339ab515-0c6a-443f-b399-e00754273ce6 ==============================
+[0m02:36:32.796149 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:36:32.797130 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:36:32.799126 [debug] [MainThread]: Tracking: tracking
+[0m02:36:32.819114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187C80520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187C80A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187C80790>]}
+[0m02:36:32.903087 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 6 files added, 0 files changed.
+[0m02:36:32.904086 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Genero.csv
+[0m02:36:32.905066 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Duracion.csv
+[0m02:36:32.905066 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Informacion_regulatoria.csv
+[0m02:36:32.906066 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Estadisticas.csv
+[0m02:36:32.906066 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Anio.csv
+[0m02:36:32.907064 [debug] [MainThread]: Partial parsing: added file: dbt_summersong_etl://seeds\Popularidad.csv
+[0m02:36:32.955039 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_summersong_etl.example
+
+[0m02:36:32.968032 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187DB3550>]}
+[0m02:36:32.984042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D6A980>]}
+[0m02:36:32.985040 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 6 seed files, 0 sources, 0 exposures, 0 metrics
+[0m02:36:32.987023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D6AA70>]}
+[0m02:36:32.990038 [info ] [MainThread]: 
+[0m02:36:32.992017 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m02:36:32.997016 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song"
+[0m02:36:33.023000 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song"
+[0m02:36:33.023997 [debug] [ThreadPool]: On list_Summer_Song: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m02:36:33.024996 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:36:33.204219 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.18 seconds
+[0m02:36:33.207221 [debug] [ThreadPool]: On list_Summer_Song: Close
+[0m02:36:33.210218 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song_SummerSong"
+[0m02:36:33.218234 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m02:36:33.218234 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: BEGIN
+[0m02:36:33.219213 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:36:33.261037 [debug] [ThreadPool]: SQL status: BEGIN in 0.04 seconds
+[0m02:36:33.261037 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m02:36:33.262040 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song_SummerSong"} */
+select
+      'Summer_Song' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'SummerSong'
+    union all
+    select
+      'Summer_Song' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'SummerSong'
+  
+[0m02:36:33.275374 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.01 seconds
+[0m02:36:33.277374 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: ROLLBACK
+[0m02:36:33.277374 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: Close
+[0m02:36:33.283370 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.284369 [debug] [MainThread]: On master: BEGIN
+[0m02:36:33.285369 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:36:33.328030 [debug] [MainThread]: SQL status: BEGIN in 0.04 seconds
+[0m02:36:33.328030 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.329029 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m02:36:33.339035 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m02:36:33.341023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D89480>]}
+[0m02:36:33.342022 [debug] [MainThread]: On master: ROLLBACK
+[0m02:36:33.342022 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.343021 [debug] [MainThread]: On master: BEGIN
+[0m02:36:33.343021 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:36:33.344021 [debug] [MainThread]: On master: COMMIT
+[0m02:36:33.344021 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.345020 [debug] [MainThread]: On master: COMMIT
+[0m02:36:33.345020 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:36:33.346020 [debug] [MainThread]: On master: Close
+[0m02:36:33.346020 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m02:36:33.348021 [info ] [MainThread]: 
+[0m02:36:33.362024 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Anio
+[0m02:36:33.363010 [info ] [Thread-1 (]: 1 of 6 START seed file SummerSong.Anio ......................................... [RUN]
+[0m02:36:33.365010 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Anio"
+[0m02:36:33.366009 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Anio
+[0m02:36:33.367008 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.368007 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Anio
+[0m02:36:33.415334 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.416335 [debug] [Thread-1 (]: Compilation Error in seed Anio (seeds\Anio.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Anio (seeds\Anio.csv)
+[0m02:36:33.416335 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187E1C1C0>]}
+[0m02:36:33.417333 [error] [Thread-1 (]: 1 of 6 ERROR loading seed file SummerSong.Anio ................................. [[31mERROR[0m in 0.05s]
+[0m02:36:33.419333 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Anio
+[0m02:36:33.421332 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Duracion
+[0m02:36:33.423330 [info ] [Thread-1 (]: 2 of 6 START seed file SummerSong.Duracion ..................................... [RUN]
+[0m02:36:33.425331 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Duracion"
+[0m02:36:33.426330 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Duracion
+[0m02:36:33.426330 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.427329 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Duracion
+[0m02:36:33.434323 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.435324 [debug] [Thread-1 (]: Compilation Error in seed Duracion (seeds\Duracion.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Duracion (seeds\Duracion.csv)
+[0m02:36:33.436324 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D8B040>]}
+[0m02:36:33.439322 [error] [Thread-1 (]: 2 of 6 ERROR loading seed file SummerSong.Duracion ............................. [[31mERROR[0m in 0.01s]
+[0m02:36:33.441321 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Duracion
+[0m02:36:33.441321 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Estadisticas
+[0m02:36:33.442320 [info ] [Thread-1 (]: 3 of 6 START seed file SummerSong.Estadisticas ................................. [RUN]
+[0m02:36:33.444320 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Estadisticas"
+[0m02:36:33.445318 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Estadisticas
+[0m02:36:33.446317 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.447317 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Estadisticas
+[0m02:36:33.463308 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.464306 [debug] [Thread-1 (]: Compilation Error in seed Estadisticas (seeds\Estadisticas.csv)
+  Row 0 has 10 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m02:36:33.465306 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187DB1C90>]}
+[0m02:36:33.465306 [error] [Thread-1 (]: 3 of 6 ERROR loading seed file SummerSong.Estadisticas ......................... [[31mERROR[0m in 0.02s]
+[0m02:36:33.467304 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Estadisticas
+[0m02:36:33.468305 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Genero
+[0m02:36:33.468305 [info ] [Thread-1 (]: 4 of 6 START seed file SummerSong.Genero ....................................... [RUN]
+[0m02:36:33.474301 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Genero"
+[0m02:36:33.475301 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Genero
+[0m02:36:33.475301 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.476301 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Genero
+[0m02:36:33.489294 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.490294 [debug] [Thread-1 (]: Compilation Error in seed Genero (seeds\Genero.csv)
+  Row 1 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Genero (seeds\Genero.csv)
+[0m02:36:33.491293 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187E86F20>]}
+[0m02:36:33.492290 [error] [Thread-1 (]: 4 of 6 ERROR loading seed file SummerSong.Genero ............................... [[31mERROR[0m in 0.02s]
+[0m02:36:33.494290 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Genero
+[0m02:36:33.495289 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:36:33.496291 [info ] [Thread-1 (]: 5 of 6 START seed file SummerSong.Informacion_regulatoria ...................... [RUN]
+[0m02:36:33.497288 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Informacion_regulatoria"
+[0m02:36:33.498288 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:36:33.499287 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.499287 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:36:33.513278 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.514278 [debug] [Thread-1 (]: Compilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m02:36:33.514278 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D188151420>]}
+[0m02:36:33.515278 [error] [Thread-1 (]: 5 of 6 ERROR loading seed file SummerSong.Informacion_regulatoria .............. [[31mERROR[0m in 0.02s]
+[0m02:36:33.516277 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:36:33.517277 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Popularidad
+[0m02:36:33.518276 [info ] [Thread-1 (]: 6 of 6 START seed file SummerSong.Popularidad .................................. [RUN]
+[0m02:36:33.523279 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Popularidad"
+[0m02:36:33.524274 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Popularidad
+[0m02:36:33.525273 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.526271 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Popularidad
+[0m02:36:33.534266 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:36:33.535267 [debug] [Thread-1 (]: Compilation Error in seed Popularidad (seeds\Popularidad.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Popularidad (seeds\Popularidad.csv)
+[0m02:36:33.536267 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '339ab515-0c6a-443f-b399-e00754273ce6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1881D0F70>]}
+[0m02:36:33.539264 [error] [Thread-1 (]: 6 of 6 ERROR loading seed file SummerSong.Popularidad .......................... [[31mERROR[0m in 0.01s]
+[0m02:36:33.542262 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Popularidad
+[0m02:36:33.544261 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m02:36:33.545260 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.546260 [debug] [MainThread]: On master: BEGIN
+[0m02:36:33.547260 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:36:33.602227 [debug] [MainThread]: SQL status: BEGIN in 0.05 seconds
+[0m02:36:33.603228 [debug] [MainThread]: On master: COMMIT
+[0m02:36:33.604226 [debug] [MainThread]: Using postgres connection "master"
+[0m02:36:33.605226 [debug] [MainThread]: On master: COMMIT
+[0m02:36:33.607225 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:36:33.607225 [debug] [MainThread]: On master: Close
+[0m02:36:33.609945 [info ] [MainThread]: 
+[0m02:36:33.610948 [info ] [MainThread]: Finished running 6 seeds in 0 hours 0 minutes and 0.62 seconds (0.62s).
+[0m02:36:33.611948 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:36:33.611948 [debug] [MainThread]: Connection 'list_Summer_Song' was properly closed.
+[0m02:36:33.612947 [debug] [MainThread]: Connection 'list_Summer_Song_SummerSong' was properly closed.
+[0m02:36:33.613946 [debug] [MainThread]: Connection 'seed.dbt_summersong_etl.Popularidad' was properly closed.
+[0m02:36:33.626939 [info ] [MainThread]: 
+[0m02:36:33.628938 [info ] [MainThread]: [31mCompleted with 6 errors and 0 warnings:[0m
+[0m02:36:33.629938 [info ] [MainThread]: 
+[0m02:36:33.631936 [error] [MainThread]: [33mCompilation Error in seed Anio (seeds\Anio.csv)[0m
+[0m02:36:33.633935 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:36:33.635937 [error] [MainThread]:   
+[0m02:36:33.639937 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.641932 [error] [MainThread]:   > called by seed Anio (seeds\Anio.csv)
+[0m02:36:33.643931 [info ] [MainThread]: 
+[0m02:36:33.646933 [error] [MainThread]: [33mCompilation Error in seed Duracion (seeds\Duracion.csv)[0m
+[0m02:36:33.648927 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:36:33.650926 [error] [MainThread]:   
+[0m02:36:33.652925 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.654923 [error] [MainThread]:   > called by seed Duracion (seeds\Duracion.csv)
+[0m02:36:33.656923 [info ] [MainThread]: 
+[0m02:36:33.657922 [error] [MainThread]: [33mCompilation Error in seed Estadisticas (seeds\Estadisticas.csv)[0m
+[0m02:36:33.659924 [error] [MainThread]:   Row 0 has 10 values, but Table only has 1 columns.
+[0m02:36:33.661919 [error] [MainThread]:   
+[0m02:36:33.666921 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.671914 [error] [MainThread]:   > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m02:36:33.674913 [info ] [MainThread]: 
+[0m02:36:33.678909 [error] [MainThread]: [33mCompilation Error in seed Genero (seeds\Genero.csv)[0m
+[0m02:36:33.680909 [error] [MainThread]:   Row 1 has 2 values, but Table only has 1 columns.
+[0m02:36:33.682908 [error] [MainThread]:   
+[0m02:36:33.684906 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.689913 [error] [MainThread]:   > called by seed Genero (seeds\Genero.csv)
+[0m02:36:33.693901 [info ] [MainThread]: 
+[0m02:36:33.694900 [error] [MainThread]: [33mCompilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)[0m
+[0m02:36:33.696899 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:36:33.697901 [error] [MainThread]:   
+[0m02:36:33.699898 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.701896 [error] [MainThread]:   > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m02:36:33.706895 [info ] [MainThread]: 
+[0m02:36:33.709897 [error] [MainThread]: [33mCompilation Error in seed Popularidad (seeds\Popularidad.csv)[0m
+[0m02:36:33.711892 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:36:33.712890 [error] [MainThread]:   
+[0m02:36:33.715889 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:36:33.716888 [error] [MainThread]:   > called by seed Popularidad (seeds\Popularidad.csv)
+[0m02:36:33.720886 [info ] [MainThread]: 
+[0m02:36:33.726884 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=6 SKIP=0 TOTAL=6
+[0m02:36:33.729881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D6A5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D187D6B0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D1881D24D0>]}
+
+
+============================== 2022-11-12 02:40:57.371998 | f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e ==============================
+[0m02:40:57.371998 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:40:57.372998 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:40:57.373976 [debug] [MainThread]: Tracking: tracking
+[0m02:40:57.394107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87B7C520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87B7CA00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87B7C790>]}
+[0m02:40:57.486087 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m02:40:57.487087 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://seeds\Anio.csv
+[0m02:40:57.522518 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_summersong_etl.example
+
+[0m02:40:57.541510 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87CC2C80>]}
+[0m02:40:57.555502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C7F880>]}
+[0m02:40:57.556499 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 6 seed files, 0 sources, 0 exposures, 0 metrics
+[0m02:40:57.558498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C7CFA0>]}
+[0m02:40:57.561496 [info ] [MainThread]: 
+[0m02:40:57.564495 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m02:40:57.567504 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song"
+[0m02:40:57.585494 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song"
+[0m02:40:57.587483 [debug] [ThreadPool]: On list_Summer_Song: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m02:40:57.588480 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:40:57.646447 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.06 seconds
+[0m02:40:57.649446 [debug] [ThreadPool]: On list_Summer_Song: Close
+[0m02:40:57.653443 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song_SummerSong"
+[0m02:40:57.665438 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m02:40:57.665438 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: BEGIN
+[0m02:40:57.666437 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m02:40:57.708411 [debug] [ThreadPool]: SQL status: BEGIN in 0.04 seconds
+[0m02:40:57.709411 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m02:40:57.709411 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song_SummerSong"} */
+select
+      'Summer_Song' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'SummerSong'
+    union all
+    select
+      'Summer_Song' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'SummerSong'
+  
+[0m02:40:57.717406 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.01 seconds
+[0m02:40:57.719405 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: ROLLBACK
+[0m02:40:57.720404 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: Close
+[0m02:40:57.726401 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:57.727400 [debug] [MainThread]: On master: BEGIN
+[0m02:40:57.727400 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:40:57.768377 [debug] [MainThread]: SQL status: BEGIN in 0.04 seconds
+[0m02:40:57.769377 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:57.770377 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m02:40:57.779370 [debug] [MainThread]: SQL status: SELECT 0 in 0.01 seconds
+[0m02:40:57.781369 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87D19180>]}
+[0m02:40:57.781369 [debug] [MainThread]: On master: ROLLBACK
+[0m02:40:57.782369 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:57.782369 [debug] [MainThread]: On master: BEGIN
+[0m02:40:57.783367 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m02:40:57.783367 [debug] [MainThread]: On master: COMMIT
+[0m02:40:57.784368 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:57.784368 [debug] [MainThread]: On master: COMMIT
+[0m02:40:57.785368 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:40:57.786368 [debug] [MainThread]: On master: Close
+[0m02:40:57.787366 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m02:40:57.788365 [info ] [MainThread]: 
+[0m02:40:57.797361 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Anio
+[0m02:40:57.797361 [info ] [Thread-1 (]: 1 of 6 START seed file SummerSong.Anio ......................................... [RUN]
+[0m02:40:57.799359 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Anio"
+[0m02:40:57.800359 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Anio
+[0m02:40:57.801358 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.803358 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Anio
+[0m02:40:57.850674 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.851675 [debug] [Thread-1 (]: Compilation Error in seed Anio (seeds\Anio.csv)
+  Row 75 has 4 values, but Table only has 3 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Anio (seeds\Anio.csv)
+[0m02:40:57.853676 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C9B1F0>]}
+[0m02:40:57.854679 [error] [Thread-1 (]: 1 of 6 ERROR loading seed file SummerSong.Anio ................................. [[31mERROR[0m in 0.05s]
+[0m02:40:57.858670 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Anio
+[0m02:40:57.859670 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Duracion
+[0m02:40:57.859670 [info ] [Thread-1 (]: 2 of 6 START seed file SummerSong.Duracion ..................................... [RUN]
+[0m02:40:57.861668 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Duracion"
+[0m02:40:57.861668 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Duracion
+[0m02:40:57.862669 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.862669 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Duracion
+[0m02:40:57.872662 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.873663 [debug] [Thread-1 (]: Compilation Error in seed Duracion (seeds\Duracion.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Duracion (seeds\Duracion.csv)
+[0m02:40:57.873663 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87D1A560>]}
+[0m02:40:57.874662 [error] [Thread-1 (]: 2 of 6 ERROR loading seed file SummerSong.Duracion ............................. [[31mERROR[0m in 0.01s]
+[0m02:40:57.876660 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Duracion
+[0m02:40:57.877660 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Estadisticas
+[0m02:40:57.878660 [info ] [Thread-1 (]: 3 of 6 START seed file SummerSong.Estadisticas ................................. [RUN]
+[0m02:40:57.881658 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Estadisticas"
+[0m02:40:57.882658 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Estadisticas
+[0m02:40:57.882658 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.883656 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Estadisticas
+[0m02:40:57.898647 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.899646 [debug] [Thread-1 (]: Compilation Error in seed Estadisticas (seeds\Estadisticas.csv)
+  Row 0 has 10 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m02:40:57.900646 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87CC0970>]}
+[0m02:40:57.901646 [error] [Thread-1 (]: 3 of 6 ERROR loading seed file SummerSong.Estadisticas ......................... [[31mERROR[0m in 0.02s]
+[0m02:40:57.905644 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Estadisticas
+[0m02:40:57.907642 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Genero
+[0m02:40:57.908643 [info ] [Thread-1 (]: 4 of 6 START seed file SummerSong.Genero ....................................... [RUN]
+[0m02:40:57.909642 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Genero"
+[0m02:40:57.910641 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Genero
+[0m02:40:57.911640 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.912640 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Genero
+[0m02:40:57.928638 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.929630 [debug] [Thread-1 (]: Compilation Error in seed Genero (seeds\Genero.csv)
+  Row 1 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Genero (seeds\Genero.csv)
+[0m02:40:57.930629 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C14790>]}
+[0m02:40:57.931628 [error] [Thread-1 (]: 4 of 6 ERROR loading seed file SummerSong.Genero ............................... [[31mERROR[0m in 0.02s]
+[0m02:40:57.932629 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Genero
+[0m02:40:57.933627 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:40:57.934626 [info ] [Thread-1 (]: 5 of 6 START seed file SummerSong.Informacion_regulatoria ...................... [RUN]
+[0m02:40:57.936629 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Informacion_regulatoria"
+[0m02:40:57.938624 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:40:57.938624 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.939625 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:40:57.948618 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.949619 [debug] [Thread-1 (]: Compilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m02:40:57.950618 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E88091420>]}
+[0m02:40:57.950618 [error] [Thread-1 (]: 5 of 6 ERROR loading seed file SummerSong.Informacion_regulatoria .............. [[31mERROR[0m in 0.01s]
+[0m02:40:57.952616 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m02:40:57.954627 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Popularidad
+[0m02:40:57.955615 [info ] [Thread-1 (]: 6 of 6 START seed file SummerSong.Popularidad .................................. [RUN]
+[0m02:40:57.957614 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Popularidad"
+[0m02:40:57.958614 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Popularidad
+[0m02:40:57.959612 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.959612 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Popularidad
+[0m02:40:57.972608 [debug] [Thread-1 (]: finished collecting timing info
+[0m02:40:57.973605 [debug] [Thread-1 (]: Compilation Error in seed Popularidad (seeds\Popularidad.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Popularidad (seeds\Popularidad.csv)
+[0m02:40:57.973605 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f3e27e22-5fba-4ca3-a3c8-5e6f1a789c2e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E88110F70>]}
+[0m02:40:57.974603 [error] [Thread-1 (]: 6 of 6 ERROR loading seed file SummerSong.Popularidad .......................... [[31mERROR[0m in 0.02s]
+[0m02:40:57.979602 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Popularidad
+[0m02:40:57.981599 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m02:40:57.982600 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:57.982600 [debug] [MainThread]: On master: BEGIN
+[0m02:40:57.982600 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m02:40:58.037570 [debug] [MainThread]: SQL status: BEGIN in 0.05 seconds
+[0m02:40:58.038569 [debug] [MainThread]: On master: COMMIT
+[0m02:40:58.039567 [debug] [MainThread]: Using postgres connection "master"
+[0m02:40:58.039567 [debug] [MainThread]: On master: COMMIT
+[0m02:40:58.040566 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m02:40:58.040566 [debug] [MainThread]: On master: Close
+[0m02:40:58.041567 [info ] [MainThread]: 
+[0m02:40:58.042564 [info ] [MainThread]: Finished running 6 seeds in 0 hours 0 minutes and 0.48 seconds (0.48s).
+[0m02:40:58.043564 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m02:40:58.044564 [debug] [MainThread]: Connection 'list_Summer_Song' was properly closed.
+[0m02:40:58.045563 [debug] [MainThread]: Connection 'list_Summer_Song_SummerSong' was properly closed.
+[0m02:40:58.045563 [debug] [MainThread]: Connection 'seed.dbt_summersong_etl.Popularidad' was properly closed.
+[0m02:40:58.063553 [info ] [MainThread]: 
+[0m02:40:58.064554 [info ] [MainThread]: [31mCompleted with 6 errors and 0 warnings:[0m
+[0m02:40:58.065552 [info ] [MainThread]: 
+[0m02:40:58.067551 [error] [MainThread]: [33mCompilation Error in seed Anio (seeds\Anio.csv)[0m
+[0m02:40:58.070553 [error] [MainThread]:   Row 75 has 4 values, but Table only has 3 columns.
+[0m02:40:58.073548 [error] [MainThread]:   
+[0m02:40:58.074547 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.076546 [error] [MainThread]:   > called by seed Anio (seeds\Anio.csv)
+[0m02:40:58.080545 [info ] [MainThread]: 
+[0m02:40:58.082542 [error] [MainThread]: [33mCompilation Error in seed Duracion (seeds\Duracion.csv)[0m
+[0m02:40:58.083541 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:40:58.085541 [error] [MainThread]:   
+[0m02:40:58.089538 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.091538 [error] [MainThread]:   > called by seed Duracion (seeds\Duracion.csv)
+[0m02:40:58.092537 [info ] [MainThread]: 
+[0m02:40:58.094536 [error] [MainThread]: [33mCompilation Error in seed Estadisticas (seeds\Estadisticas.csv)[0m
+[0m02:40:58.098533 [error] [MainThread]:   Row 0 has 10 values, but Table only has 1 columns.
+[0m02:40:58.100533 [error] [MainThread]:   
+[0m02:40:58.101532 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.105529 [error] [MainThread]:   > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m02:40:58.107528 [info ] [MainThread]: 
+[0m02:40:58.108529 [error] [MainThread]: [33mCompilation Error in seed Genero (seeds\Genero.csv)[0m
+[0m02:40:58.110526 [error] [MainThread]:   Row 1 has 2 values, but Table only has 1 columns.
+[0m02:40:58.114525 [error] [MainThread]:   
+[0m02:40:58.116524 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.121530 [error] [MainThread]:   > called by seed Genero (seeds\Genero.csv)
+[0m02:40:58.123518 [info ] [MainThread]: 
+[0m02:40:58.125518 [error] [MainThread]: [33mCompilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)[0m
+[0m02:40:58.127516 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:40:58.130515 [error] [MainThread]:   
+[0m02:40:58.132513 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.134894 [error] [MainThread]:   > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m02:40:58.139511 [info ] [MainThread]: 
+[0m02:40:58.141508 [error] [MainThread]: [33mCompilation Error in seed Popularidad (seeds\Popularidad.csv)[0m
+[0m02:40:58.142508 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m02:40:58.144506 [error] [MainThread]:   
+[0m02:40:58.146506 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m02:40:58.149504 [error] [MainThread]:   > called by seed Popularidad (seeds\Popularidad.csv)
+[0m02:40:58.153503 [info ] [MainThread]: 
+[0m02:40:58.156500 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=6 SKIP=0 TOTAL=6
+[0m02:40:58.158499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C7F4C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E87C7E020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017E881124D0>]}
+
+
+============================== 2022-11-12 02:46:03.011251 | e05b1069-7a98-4afc-980e-80be6247570a ==============================
+[0m02:46:03.011251 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:46:03.012250 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'full_refresh': True, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:46:03.013251 [debug] [MainThread]: Tracking: tracking
+[0m02:46:03.036237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A1619E10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A1640970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A1640700>]}
+[0m02:46:03.084212 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A173DA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A173D9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259A173DA20>]}
+
+
+============================== 2022-11-12 02:56:29.355783 | 621201ba-f1b2-414a-b56a-11a56fbfe73a ==============================
+[0m02:56:29.355783 [info ] [MainThread]: Running with dbt=1.2.0
+[0m02:56:29.356783 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'full_refresh': True, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m02:56:29.357781 [debug] [MainThread]: Tracking: tracking
+[0m02:56:29.379772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D4369EB6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D436A10970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D436A10700>]}
+[0m02:56:29.428740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D436B0DA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D436B0D9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D436B0DA20>]}
+
+
+============================== 2022-11-12 03:03:11.399216 | a175fe9b-dbbf-4dfe-97a6-cfc6f04686c8 ==============================
+[0m03:03:11.399216 [info ] [MainThread]: Running with dbt=1.2.0
+[0m03:03:11.400202 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'full_refresh': True, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m03:03:11.401200 [debug] [MainThread]: Tracking: tracking
+[0m03:03:11.419752 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F5420730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F54209D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F54207F0>]}
+[0m03:03:11.463726 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F551DAE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F551DA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131F551DA80>]}
+
+
+============================== 2022-11-12 03:03:27.878180 | 0a9c34d4-be12-4e8e-ade3-f248805c7946 ==============================
+[0m03:03:27.878180 [info ] [MainThread]: Running with dbt=1.2.0
+[0m03:03:27.879182 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m03:03:27.880180 [debug] [MainThread]: Tracking: tracking
+[0m03:03:27.900170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF8AF2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF8CC9A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF8CC790>]}
+[0m03:03:27.950149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF9CDAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF9CD9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000263CF9CD9C0>]}
+
+
+============================== 2022-11-12 03:03:53.855116 | 892b91d8-d75e-49ed-902d-6c9205c604fb ==============================
+[0m03:03:53.855116 [info ] [MainThread]: Running with dbt=1.2.0
+[0m03:03:53.856332 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'full_refresh': True, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m03:03:53.857335 [debug] [MainThread]: Tracking: tracking
+[0m03:03:53.877339 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730AE4730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730AE49D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730AE47F0>]}
+[0m03:03:53.960274 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m03:03:53.961275 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://seeds\Duracion.csv
+[0m03:03:53.962273 [debug] [MainThread]: Partial parsing: updated file: dbt_summersong_etl://seeds\Anio.csv
+[0m03:03:54.003250 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_summersong_etl.example
+
+[0m03:03:54.019241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730C31CF0>]}
+[0m03:03:54.032234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730BECC70>]}
+[0m03:03:54.033233 [info ] [MainThread]: Found 0 models, 0 tests, 0 snapshots, 0 analyses, 256 macros, 0 operations, 6 seed files, 0 sources, 0 exposures, 0 metrics
+[0m03:03:54.034234 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730BECF70>]}
+[0m03:03:54.036246 [info ] [MainThread]: 
+[0m03:03:54.040229 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m03:03:54.043228 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song"
+[0m03:03:54.067228 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song"
+[0m03:03:54.067228 [debug] [ThreadPool]: On list_Summer_Song: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m03:03:54.068213 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:03:54.129178 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.06 seconds
+[0m03:03:54.131176 [debug] [ThreadPool]: On list_Summer_Song: Close
+[0m03:03:54.133175 [debug] [ThreadPool]: Acquiring new postgres connection "list_Summer_Song_SummerSong"
+[0m03:03:54.141170 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m03:03:54.142170 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: BEGIN
+[0m03:03:54.143170 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m03:03:54.190143 [debug] [ThreadPool]: SQL status: BEGIN in 0.05 seconds
+[0m03:03:54.190143 [debug] [ThreadPool]: Using postgres connection "list_Summer_Song_SummerSong"
+[0m03:03:54.191142 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "list_Summer_Song_SummerSong"} */
+select
+      'Summer_Song' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'SummerSong'
+    union all
+    select
+      'Summer_Song' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'SummerSong'
+  
+[0m03:03:54.201138 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.01 seconds
+[0m03:03:54.203136 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: ROLLBACK
+[0m03:03:54.204135 [debug] [ThreadPool]: On list_Summer_Song_SummerSong: Close
+[0m03:03:54.210131 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.210131 [debug] [MainThread]: On master: BEGIN
+[0m03:03:54.211131 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:03:54.264101 [debug] [MainThread]: SQL status: BEGIN in 0.05 seconds
+[0m03:03:54.265100 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.265100 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.2.0", "profile_name": "dbt_summersong_etl", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m03:03:54.296082 [debug] [MainThread]: SQL status: SELECT 0 in 0.03 seconds
+[0m03:03:54.299080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730C8D150>]}
+[0m03:03:54.300080 [debug] [MainThread]: On master: ROLLBACK
+[0m03:03:54.301079 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.302078 [debug] [MainThread]: On master: BEGIN
+[0m03:03:54.303078 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m03:03:54.304077 [debug] [MainThread]: On master: COMMIT
+[0m03:03:54.304077 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.305077 [debug] [MainThread]: On master: COMMIT
+[0m03:03:54.306076 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:03:54.306076 [debug] [MainThread]: On master: Close
+[0m03:03:54.307076 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m03:03:54.328063 [info ] [MainThread]: 
+[0m03:03:54.384031 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Anio
+[0m03:03:54.385031 [info ] [Thread-1 (]: 1 of 6 START seed file SummerSong.Anio ......................................... [RUN]
+[0m03:03:54.387030 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Anio"
+[0m03:03:54.389030 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Anio
+[0m03:03:54.390029 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.391028 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Anio
+[0m03:03:54.457989 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.458988 [debug] [Thread-1 (]: Compilation Error in seed Anio (seeds\Anio.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Anio (seeds\Anio.csv)
+[0m03:03:54.459988 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730C113C0>]}
+[0m03:03:54.459988 [error] [Thread-1 (]: 1 of 6 ERROR loading seed file SummerSong.Anio ................................. [[31mERROR[0m in 0.07s]
+[0m03:03:54.461986 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Anio
+[0m03:03:54.462986 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Duracion
+[0m03:03:54.463985 [info ] [Thread-1 (]: 2 of 6 START seed file SummerSong.Duracion ..................................... [RUN]
+[0m03:03:54.464985 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Duracion"
+[0m03:03:54.465986 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Duracion
+[0m03:03:54.466985 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.466985 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Duracion
+[0m03:03:54.480975 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.480975 [debug] [Thread-1 (]: Compilation Error in seed Duracion (seeds\Duracion.csv)
+  Row 75 has 4 values, but Table only has 3 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Duracion (seeds\Duracion.csv)
+[0m03:03:54.481977 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730C8E740>]}
+[0m03:03:54.482974 [error] [Thread-1 (]: 2 of 6 ERROR loading seed file SummerSong.Duracion ............................. [[31mERROR[0m in 0.02s]
+[0m03:03:54.484973 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Duracion
+[0m03:03:54.485974 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Estadisticas
+[0m03:03:54.485974 [info ] [Thread-1 (]: 3 of 6 START seed file SummerSong.Estadisticas ................................. [RUN]
+[0m03:03:54.488973 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Estadisticas"
+[0m03:03:54.490972 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Estadisticas
+[0m03:03:54.491973 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.492970 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Estadisticas
+[0m03:03:54.510958 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.513957 [debug] [Thread-1 (]: Compilation Error in seed Estadisticas (seeds\Estadisticas.csv)
+  Row 0 has 10 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m03:03:54.514957 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730C33CA0>]}
+[0m03:03:54.514957 [error] [Thread-1 (]: 3 of 6 ERROR loading seed file SummerSong.Estadisticas ......................... [[31mERROR[0m in 0.03s]
+[0m03:03:54.516955 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Estadisticas
+[0m03:03:54.517954 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Genero
+[0m03:03:54.517954 [info ] [Thread-1 (]: 4 of 6 START seed file SummerSong.Genero ....................................... [RUN]
+[0m03:03:54.519953 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Genero"
+[0m03:03:54.522952 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Genero
+[0m03:03:54.524957 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.525951 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Genero
+[0m03:03:54.535944 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.536943 [debug] [Thread-1 (]: Compilation Error in seed Genero (seeds\Genero.csv)
+  Row 1 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Genero (seeds\Genero.csv)
+[0m03:03:54.538951 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730B8CBB0>]}
+[0m03:03:54.540943 [error] [Thread-1 (]: 4 of 6 ERROR loading seed file SummerSong.Genero ............................... [[31mERROR[0m in 0.02s]
+[0m03:03:54.542941 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Genero
+[0m03:03:54.543940 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m03:03:54.544939 [info ] [Thread-1 (]: 5 of 6 START seed file SummerSong.Informacion_regulatoria ...................... [RUN]
+[0m03:03:54.547937 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Informacion_regulatoria"
+[0m03:03:54.547937 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m03:03:54.549937 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.549937 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m03:03:54.564929 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.565929 [debug] [Thread-1 (]: Compilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m03:03:54.566926 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730FFD3F0>]}
+[0m03:03:54.566926 [error] [Thread-1 (]: 5 of 6 ERROR loading seed file SummerSong.Informacion_regulatoria .............. [[31mERROR[0m in 0.02s]
+[0m03:03:54.568926 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Informacion_regulatoria
+[0m03:03:54.568926 [debug] [Thread-1 (]: Began running node seed.dbt_summersong_etl.Popularidad
+[0m03:03:54.569926 [info ] [Thread-1 (]: 6 of 6 START seed file SummerSong.Popularidad .................................. [RUN]
+[0m03:03:54.574925 [debug] [Thread-1 (]: Acquiring new postgres connection "seed.dbt_summersong_etl.Popularidad"
+[0m03:03:54.576921 [debug] [Thread-1 (]: Began compiling node seed.dbt_summersong_etl.Popularidad
+[0m03:03:54.576921 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.577920 [debug] [Thread-1 (]: Began executing node seed.dbt_summersong_etl.Popularidad
+[0m03:03:54.585915 [debug] [Thread-1 (]: finished collecting timing info
+[0m03:03:54.586914 [debug] [Thread-1 (]: Compilation Error in seed Popularidad (seeds\Popularidad.csv)
+  Row 75 has 2 values, but Table only has 1 columns.
+  
+  > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+  > called by seed Popularidad (seeds\Popularidad.csv)
+[0m03:03:54.588927 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '892b91d8-d75e-49ed-902d-6c9205c604fb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018731080F40>]}
+[0m03:03:54.590914 [error] [Thread-1 (]: 6 of 6 ERROR loading seed file SummerSong.Popularidad .......................... [[31mERROR[0m in 0.02s]
+[0m03:03:54.593912 [debug] [Thread-1 (]: Finished running node seed.dbt_summersong_etl.Popularidad
+[0m03:03:54.595912 [debug] [MainThread]: Acquiring new postgres connection "master"
+[0m03:03:54.596909 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.596909 [debug] [MainThread]: On master: BEGIN
+[0m03:03:54.597909 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m03:03:54.661873 [debug] [MainThread]: SQL status: BEGIN in 0.06 seconds
+[0m03:03:54.661873 [debug] [MainThread]: On master: COMMIT
+[0m03:03:54.662872 [debug] [MainThread]: Using postgres connection "master"
+[0m03:03:54.662872 [debug] [MainThread]: On master: COMMIT
+[0m03:03:54.663871 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m03:03:54.663871 [debug] [MainThread]: On master: Close
+[0m03:03:54.664871 [info ] [MainThread]: 
+[0m03:03:54.665870 [info ] [MainThread]: Finished running 6 seeds in 0 hours 0 minutes and 0.63 seconds (0.63s).
+[0m03:03:54.667869 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m03:03:54.668868 [debug] [MainThread]: Connection 'list_Summer_Song' was properly closed.
+[0m03:03:54.669869 [debug] [MainThread]: Connection 'list_Summer_Song_SummerSong' was properly closed.
+[0m03:03:54.669869 [debug] [MainThread]: Connection 'seed.dbt_summersong_etl.Popularidad' was properly closed.
+[0m03:03:54.683860 [info ] [MainThread]: 
+[0m03:03:54.684860 [info ] [MainThread]: [31mCompleted with 6 errors and 0 warnings:[0m
+[0m03:03:54.686858 [info ] [MainThread]: 
+[0m03:03:54.691858 [error] [MainThread]: [33mCompilation Error in seed Anio (seeds\Anio.csv)[0m
+[0m03:03:54.694853 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m03:03:54.695853 [error] [MainThread]:   
+[0m03:03:54.696854 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.698852 [error] [MainThread]:   > called by seed Anio (seeds\Anio.csv)
+[0m03:03:54.699852 [info ] [MainThread]: 
+[0m03:03:54.700850 [error] [MainThread]: [33mCompilation Error in seed Duracion (seeds\Duracion.csv)[0m
+[0m03:03:54.708846 [error] [MainThread]:   Row 75 has 4 values, but Table only has 3 columns.
+[0m03:03:54.711843 [error] [MainThread]:   
+[0m03:03:54.713842 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.715842 [error] [MainThread]:   > called by seed Duracion (seeds\Duracion.csv)
+[0m03:03:54.717841 [info ] [MainThread]: 
+[0m03:03:54.718839 [error] [MainThread]: [33mCompilation Error in seed Estadisticas (seeds\Estadisticas.csv)[0m
+[0m03:03:54.724839 [error] [MainThread]:   Row 0 has 10 values, but Table only has 1 columns.
+[0m03:03:54.726836 [error] [MainThread]:   
+[0m03:03:54.727835 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.729836 [error] [MainThread]:   > called by seed Estadisticas (seeds\Estadisticas.csv)
+[0m03:03:54.730833 [info ] [MainThread]: 
+[0m03:03:54.734830 [error] [MainThread]: [33mCompilation Error in seed Genero (seeds\Genero.csv)[0m
+[0m03:03:54.735830 [error] [MainThread]:   Row 1 has 2 values, but Table only has 1 columns.
+[0m03:03:54.738838 [error] [MainThread]:   
+[0m03:03:54.742826 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.743825 [error] [MainThread]:   > called by seed Genero (seeds\Genero.csv)
+[0m03:03:54.744825 [info ] [MainThread]: 
+[0m03:03:54.746823 [error] [MainThread]: [33mCompilation Error in seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)[0m
+[0m03:03:54.749822 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m03:03:54.751820 [error] [MainThread]:   
+[0m03:03:54.753820 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.757823 [error] [MainThread]:   > called by seed Informacion_regulatoria (seeds\Informacion_regulatoria.csv)
+[0m03:03:54.759816 [info ] [MainThread]: 
+[0m03:03:54.761816 [error] [MainThread]: [33mCompilation Error in seed Popularidad (seeds\Popularidad.csv)[0m
+[0m03:03:54.763815 [error] [MainThread]:   Row 75 has 2 values, but Table only has 1 columns.
+[0m03:03:54.766812 [error] [MainThread]:   
+[0m03:03:54.767811 [error] [MainThread]:   > in macro materialization_seed_default (macros\materializations\seeds\seed.sql)
+[0m03:03:54.768811 [error] [MainThread]:   > called by seed Popularidad (seeds\Popularidad.csv)
+[0m03:03:54.769812 [info ] [MainThread]: 
+[0m03:03:54.776806 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=6 SKIP=0 TOTAL=6
+[0m03:03:54.777805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730BEF640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018730BEDC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187310824A0>]}
+
+
+============================== 2022-11-12 03:10:47.505823 | 5e7c4f61-114d-43b1-815c-06afca5f3491 ==============================
+[0m03:10:47.505823 [info ] [MainThread]: Running with dbt=1.2.0
+[0m03:10:47.506822 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m03:10:47.507806 [debug] [MainThread]: Tracking: tracking
+[0m03:10:47.529794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151E5CE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151E809A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151E80790>]}
+[0m03:10:47.611748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151F7DAB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151F7D9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022151F7D9C0>]}
+
+
+============================== 2022-11-12 03:11:17.857487 | 69908308-4a0e-44ec-abad-e30beae992b0 ==============================
+[0m03:11:17.857487 [info ] [MainThread]: Running with dbt=1.2.0
+[0m03:11:17.859139 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\feder\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'show': False, 'which': 'seed', 'rpc_method': 'seed', 'indirect_selection': 'eager'}
+[0m03:11:17.860142 [debug] [MainThread]: Tracking: tracking
+[0m03:11:17.880146 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCF00730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCF009D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCF007F0>]}
+[0m03:11:17.916108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCFFDAE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCFFDA20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8CCFFD9F0>]}
