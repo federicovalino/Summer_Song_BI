@@ -1,7 +1,4 @@
-{{ config(
-    materialized="table",
-    schema="staging"
-) }}
+
 
 with song_year as (
     select
@@ -9,7 +6,7 @@ with song_year as (
     y.artist,
     y.song,
     y.year
-    from {{ source('source_db','year') }} as y
+    from "Summer_Song"."SummerSong"."year" as y
 )
 
 select * from song_year

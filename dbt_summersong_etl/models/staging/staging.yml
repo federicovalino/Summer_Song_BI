@@ -21,3 +21,14 @@ models:
         description: "Year for each game"
         tests:
           - not_null
+sources: 
+  - name: source_db
+    database: Summer_Song
+    schema: SummerSong
+    tables:
+      - name: duration
+      - name: genre
+      - name: popularity
+      - name: regulatory_information
+      - name: statistics
+      - name: year
