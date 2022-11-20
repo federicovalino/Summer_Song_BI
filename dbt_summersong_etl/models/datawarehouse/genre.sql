@@ -6,7 +6,7 @@
 with genres as (
     select distinct
     spg1.genre_1 as genre
-    from {{ source('staging_db','stg_publicaction_genre_1') }} as spg1
+    from {{ source('staging_db','stg_genre_1') }} as spg1
 ),
 
 identified_genre as (

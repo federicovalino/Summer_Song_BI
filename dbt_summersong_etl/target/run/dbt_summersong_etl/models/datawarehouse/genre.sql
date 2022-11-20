@@ -7,7 +7,7 @@
 with genres as (
     select distinct
     spg1.genre_1 as genre
-    from "Summer_Song"."SummerSong_staging"."stg_publicaction_genre_1" as spg1
+    from "Summer_Song"."SummerSong_staging"."stg_genre_1" as spg1
 ),
 
 identified_genre as (

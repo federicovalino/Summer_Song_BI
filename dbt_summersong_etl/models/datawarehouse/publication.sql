@@ -8,7 +8,7 @@ with publication_genre_1 as (
     sps.id_song,
     gen.id_genre as id_principal_genre
     from {{ source('staging_db','stg_publication_statistics') }} as sps, {{ref('genre')}} as gen, 
-         {{ source('staging_db','stg_publicaction_genre_1') }} as spg1
+         {{ source('staging_db','stg_genre_1') }} as spg1
          where
              sps.id_song = spg1.id_song and gen.genre = spg1.genre_1
 ),
@@ -18,7 +18,7 @@ publication_genre_2 as (
     sps.id_song,
     gen.id_genre as id_secondary_genre
     from {{ source('staging_db','stg_publication_statistics') }} as sps, {{ref('genre')}} as gen, 
-         {{ source('staging_db','stg_publication_genre_2') }} as spg2
+         {{ source('staging_db','stg_genre_2') }} as spg2
          where
              sps.id_song = spg2.id_song and gen.genre = spg2.genre_1
 ),

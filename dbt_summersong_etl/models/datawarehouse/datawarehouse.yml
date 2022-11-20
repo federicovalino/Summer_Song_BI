@@ -12,5 +12,5 @@ sources:
       - name: stg_song_explicit
       - name: stg_song_traits
       - name: stg_song_year
-      - name: stg_publicaction_genre_1
-      - name: stg_publication_genre_2
+      - name: stg_genre_1
+      - name: stg_genre_2
