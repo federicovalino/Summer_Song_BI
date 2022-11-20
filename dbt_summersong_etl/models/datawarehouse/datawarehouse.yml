@@ -1,0 +1,16 @@
+version: 2
+
+sources: 
+  - name: staging_db
+    database: Summer_Song
+    schema: SummerSong_staging
+    tables:
+      - name: stg_publication_popularity
+      - name: stg_publication_songgenres
+      - name: stg_publication_statistics
+      - name: stg_song_duration
+      - name: stg_song_explicit
+      - name: stg_song_traits
+      - name: stg_song_year
+      - name: stg_publicaction_genre_1
+      - name: stg_publication_genre_2
