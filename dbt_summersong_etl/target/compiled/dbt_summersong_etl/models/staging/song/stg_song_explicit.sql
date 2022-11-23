@@ -2,9 +2,9 @@
 
 with song_explicit as (
     select
-    ROW_NUMBER() OVER(ORDER BY (e.song)) AS id_song,
+    e.id_song,
     e.explicit
-    from "Summer_Song"."SummerSong"."regulatory_information" as e
+    from "Summer_Song"."SummerSong_profile"."profiled_data" as e
 )
 
 select * from song_explicit

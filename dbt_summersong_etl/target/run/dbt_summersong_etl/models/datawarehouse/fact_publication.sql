@@ -15,13 +15,13 @@ with publication_genre_1 as (
 ),
 
 publication_genre_2 as (
-    select
+    select distinct
     sps.id_song,
     gen.id_genre as id_secondary_genre
     from "Summer_Song"."SummerSong_staging"."stg_publication_statistics" as sps, "Summer_Song"."SummerSong_datawarehouse"."dim_genre" as gen, 
          "Summer_Song"."SummerSong_staging"."stg_genre_2" as spg2
          where
-             sps.id_song = spg2.id_song and gen.genre = spg2.genre_1
+             sps.id_song = spg2.id_song and gen.genre = spg2.genre
 ),
 
 publication_artist as (

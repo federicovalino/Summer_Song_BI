@@ -56,5 +56,5 @@ identified_profiled_data as (
     from profiled_data as pf
 )
 
-select * from profiled_data
+select * from identified_profiled_data
   );

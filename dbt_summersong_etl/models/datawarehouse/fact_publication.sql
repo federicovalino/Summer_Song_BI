@@ -14,13 +14,13 @@ with publication_genre_1 as (
 ),
 
 publication_genre_2 as (
-    select
+    select distinct
     sps.id_song,
     gen.id_genre as id_secondary_genre
     from {{ source('staging_db','stg_publication_statistics') }} as sps, {{ref('dim_genre')}} as gen, 
          {{ source('staging_db','stg_genre_2') }} as spg2
          where
-             sps.id_song = spg2.id_song and gen.genre = spg2.genre_1
+             sps.id_song = spg2.id_song and gen.genre = spg2.genre
 ),
 
 publication_artist as (

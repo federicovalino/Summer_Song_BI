@@ -5,11 +5,11 @@
 
 with song_year as (
     select
-    ROW_NUMBER() OVER(ORDER BY (y.song)) AS id_song,
+    y.id_song,
     y.artist,
     y.song,
     y.year
-    from {{ source('source_db','year') }} as y
+    from {{ source('source_db','profiled_data') }} as y
 )
 
 select * from song_year
