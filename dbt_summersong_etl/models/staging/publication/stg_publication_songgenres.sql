@@ -4,10 +4,12 @@
 ) }}
 
 with publication_songgenres as (
-    select ROW_NUMBER() OVER(ORDER BY (psg.song)) AS id_song,
+    select
+    psg.id_song,
     psg.song,
-    unnest(string_to_array(psg.genre, ', ')) as genre
-    from {{ source('source_db','genre') }} as psg
+    (string_to_array(psg.genre, ', '))[1] as genre_1,
+    (string_to_array(psg.genre, ', '))[2] as genre_2
+    from {{ source('source_db','profiled_data') }} as psg
 )
 
 select * from publication_songgenres

@@ -5,9 +5,9 @@
 
 with song_explicit as (
     select
-    ROW_NUMBER() OVER(ORDER BY (e.song)) AS id_song,
+    e.id_song,
     e.explicit
-    from {{ source('source_db','regulatory_information') }} as e
+    from {{ source('source_db','profiled_data') }} as e
 )
 
 select * from song_explicit

@@ -1,0 +1,13 @@
+version: 2
+
+sources: 
+  - name: profiling_db
+    database: Summer_Song
+    schema: SummerSong
+    tables:
+      - name: duration
+      - name: genre
+      - name: popularity
+      - name: regulatory_information
+      - name: statistics
+      - name: year

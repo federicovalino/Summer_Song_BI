@@ -5,7 +5,7 @@
 
 with song_statistics as (
     select
-    ROW_NUMBER() OVER(ORDER BY (s.song)) AS id_song,
+    s.id_song,
     s.danceability,
     s.energy,
     s.loudness,
@@ -15,7 +15,7 @@ with song_statistics as (
     s.liveness,
     s.valence,
     s.tempo
-    from {{ source('source_db','statistics') }} as s
+    from {{ source('source_db','profiled_data') }} as s
 )
 
 select * from song_statistics
