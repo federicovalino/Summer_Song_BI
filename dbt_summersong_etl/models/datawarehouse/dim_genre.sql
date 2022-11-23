@@ -3,17 +3,26 @@
     schema="datawarehouse"
 ) }}
 
-with genres as (
-    select distinct
-    spg1.genre
-    from {{ source('staging_db','stg_publication_songgenres') }} as spg1
+with genre_1 as (
+    select spg1.genre_1 as genre from {{ source('staging_db','stg_publication_songgenres') }} as spg1
+),
+
+genre_2 as (
+    select spg2.genre_2 as genre from {{ source('staging_db','stg_publication_songgenres') }} as spg2
+),
+
+union_genres as (
+    select spg1.genre from genre_1 as spg1
+    UNION
+    select spg2.genre from genre_2 as spg2
+    ORDER By genre
 ),
 
 identified_genre as (
-    select
+    select distinct
     ROW_NUMBER() OVER(ORDER BY (spg.genre)) AS id_genre,
     spg.genre
-    from genres as spg
+    from union_genres as spg
 )
 
 select * from identified_genre

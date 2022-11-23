@@ -2,22 +2,20 @@
 
 with publication_genre_1 as (
     select
-    sps.id_song,
+    spsg.id_song,
     gen.id_genre as id_principal_genre
-    from "Summer_Song"."SummerSong_staging"."stg_publication_statistics" as sps, "Summer_Song"."SummerSong_datawarehouse"."dim_genre" as gen, 
-         "Summer_Song"."SummerSong_staging"."stg_genre_1" as spg1
+    from "Summer_Song"."SummerSong_staging"."stg_publication_songgenres" as spsg, "Summer_Song"."SummerSong_datawarehouse"."dim_genre" as gen
          where
-             sps.id_song = spg1.id_song and gen.genre = spg1.genre_1
+            gen.genre = spsg.genre_1
 ),
 
 publication_genre_2 as (
     select distinct
-    sps.id_song,
+    spsg.id_song,
     gen.id_genre as id_secondary_genre
-    from "Summer_Song"."SummerSong_staging"."stg_publication_statistics" as sps, "Summer_Song"."SummerSong_datawarehouse"."dim_genre" as gen, 
-         "Summer_Song"."SummerSong_staging"."stg_genre_2" as spg2
+    from "Summer_Song"."SummerSong_staging"."stg_publication_songgenres" as spsg, "Summer_Song"."SummerSong_datawarehouse"."dim_genre" as gen
          where
-             sps.id_song = spg2.id_song and gen.genre = spg2.genre
+            gen.genre = spsg.genre_2
 ),
 
 publication_artist as (

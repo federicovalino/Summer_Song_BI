@@ -5,22 +5,20 @@
 
 with publication_genre_1 as (
     select
-    sps.id_song,
+    spsg.id_song,
     gen.id_genre as id_principal_genre
-    from {{ source('staging_db','stg_publication_statistics') }} as sps, {{ref('dim_genre')}} as gen, 
-         {{ source('staging_db','stg_genre_1') }} as spg1
+    from {{ source('staging_db','stg_publication_songgenres') }} as spsg, {{ref('dim_genre')}} as gen
          where
-             sps.id_song = spg1.id_song and gen.genre = spg1.genre_1
+            gen.genre = spsg.genre_1
 ),
 
 publication_genre_2 as (
     select distinct
-    sps.id_song,
+    spsg.id_song,
     gen.id_genre as id_secondary_genre
-    from {{ source('staging_db','stg_publication_statistics') }} as sps, {{ref('dim_genre')}} as gen, 
-         {{ source('staging_db','stg_genre_2') }} as spg2
+    from {{ source('staging_db','stg_publication_songgenres') }} as spsg, {{ref('dim_genre')}} as gen
          where
-             sps.id_song = spg2.id_song and gen.genre = spg2.genre
+            gen.genre = spsg.genre_2
 ),
 
 publication_artist as (
