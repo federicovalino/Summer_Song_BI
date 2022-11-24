@@ -1,34 +1,8 @@
 version: 2
 
-models:
-  - name: stg_song_year
-    description: "All videojuegos staging table"
-    columns:
-      - name: id_song
-        description: "The primary key for this table"
-        tests:
-          - unique
-          - not_null
-      - name: name
-        description: "videogame name"
-        tests:
-          - not_null
-      - name: artist
-        description: "Year for each game"
-        tests:
-          - not_null
-      - name: year
-        description: "Year for each game"
-        tests:
-          - not_null
 sources: 
   - name: source_db
     database: Summer_Song
-    schema: SummerSong
+    schema: SummerSong_profile
     tables:
-      - name: duration
-      - name: genre
-      - name: popularity
-      - name: regulatory_information
-      - name: statistics
-      - name: year
+      - name: profiled_data
