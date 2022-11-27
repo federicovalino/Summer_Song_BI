@@ -52,4 +52,5 @@ identified_profiled_data as (
     from profiled_data as pf
 )
 
-select * from identified_profiled_data
+select * from identified_profiled_data as ipd
+    where ipd.genre <> 'set()' and ipd.genre <> '79,635'
