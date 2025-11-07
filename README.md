@@ -27,4 +27,42 @@ El análisis busca responder:
 ---
 
 ## 🧩 Estructura del repositorio
+Summer_Song_BI/
+│
+├── models/ # Modelos y transformaciones dbt
+│ ├── staging/ # Limpieza y normalización inicial de los datos
+│ └── marts/ # Modelos analíticos y métricas finales
+│
+├── visualization/ # Carpeta con reportes y dashboards de Power BI
+│ ├── Summer_Song_Analysis.pbix
+│ └── screenshots/ # Capturas de las visualizaciones
+│
+├── data/ # Datos fuente (datasets de canciones)
+│
+└── README.md # Este archivo
 
+---
+
+📁 Visualizaciones
+
+En la carpeta visualization se encuentra el archivo .pbix de Power BI con todas las visualizaciones interactivas, incluyendo:
+
+- Distribución de popularidad por año.
+- Popularidad por género.
+- Correlación entre tempo, tonalidad y duración.
+- Principales KPI’s musicales del período analizado (2016–2020).
+
+---
+
+## 🚀 Ejecución del proyecto
+
+1. **Instalar dependencias de dbt**
+   ```bash
+   pip install dbt
+2. **Configurar la conexión a la base de datos**
+   Editar el archivo profiles.yml con tus credenciales locales.
+3. **Ejecutar el pipeline**
+   dbt run
+   dbt test
+4. **Visualizar resultados**
+   Abrir el proyecto de Power BI ubicado en visualization/Summer_Song_Analysis.pbix.
