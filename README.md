@@ -28,17 +28,29 @@ El análisis busca responder:
 
 ## 🧩 Estructura del repositorio
 Summer_Song_BI/
+
 │
+
 ├── models/ # Modelos y transformaciones dbt
+
 │ ├── staging/ # Limpieza y normalización inicial de los datos
+
 │ └── marts/ # Modelos analíticos y métricas finales
+
 │
+
 ├── visualization/ # Carpeta con reportes y dashboards de Power BI
+
 │ ├── Summer_Song_Analysis.pbix
+
 │ └── screenshots/ # Capturas de las visualizaciones
+
 │
+
 ├── data/ # Datos fuente (datasets de canciones)
+
 │
+
 └── README.md # Este archivo
 
 ---
