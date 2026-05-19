@@ -1,80 +1,76 @@
 # 🎶 Summer Song BI — Business Intelligence Project
 
-**Autor:** Federico Valiño - Stephanie Dimperio
-**Universidad Católica del Uruguay — 2022**  
-**Materia:** Business Intelligence  
-**Repositorio:** [github.com/federicovalino/Summer_Song_BI](https://github.com/federicovalino/Summer_Song_BI)
+**Authors:** Federico Valiño & Stephanie Dimperio
+**Universidad Católica del Uruguay — 2022**
+**Course:** Business Intelligence
 
 ---
 
-## 📘 Descripción del proyecto
+## 📘 Project Overview
 
-Este proyecto tiene como objetivo analizar las características de las canciones más populares de los últimos años con el fin de **identificar patrones que determinan el éxito comercial de un hit musical** (“la canción del verano”).
+This project analyzes the characteristics of the most popular songs over recent years with the goal of **identifying patterns that determine the commercial success of a musical hit** (the "song of the summer").
 
-A partir de un conjunto de datos con información sobre canciones, artistas y métricas de popularidad, se construyó un **pipeline de datos** para procesar, transformar y visualizar la información de forma clara y accionable.  
+Using a dataset with information about songs, artists and popularity metrics, a **data pipeline** was built to process, transform and visualize the information in a clear and actionable way.
 
-El análisis busca responder:  
-> ¿Qué atributos musicales (género, tempo, duración, tonalidad, energía, etc.) aumentan la probabilidad de éxito de una canción?
-
----
-
-## ⚙️ Tecnologías utilizadas
-
-- **dbt (Data Build Tool):** modelado y transformación de datos (ETL).  
-- **SQL:** consultas y limpieza de datos.  
-- **Power BI:** diseño de dashboards interactivos y visualizaciones.   
+The analysis aims to answer:
+> What musical attributes (genre, tempo, duration, key, energy, etc.) increase the likelihood of a song becoming a hit?
 
 ---
 
-## 🧩 Estructura del repositorio
+## ⚙️ Tech Stack
+
+- **dbt (Data Build Tool):** data modeling and transformation (ETL)
+- **SQL:** querying and data cleaning
+- **Power BI:** interactive dashboards and visualizations
+
+---
+
+## 🧩 Repository Structure
+
+```
 Summer_Song_BI/
-
 │
-
-├── models/ # Modelos y transformaciones dbt
-
-│ ├── staging/ # Limpieza y normalización inicial de los datos
-
-│ └── marts/ # Modelos analíticos y métricas finales
-
+├── models/                        # dbt models and transformations
+│   ├── staging/                   # Initial data cleaning and normalization
+│   └── marts/                     # Analytical models and final metrics
 │
-
-├── visualization/ # Carpeta con reportes y dashboards de Power BI
-
-│ ├── Summer_Song_Analysis.pbix
-
-│ └── screenshots/ # Capturas de las visualizaciones
-
+├── visualization/                 # Power BI reports and dashboards
+│   ├── Summer_Song_Analysis.pbix
+│   └── screenshots/               # Dashboard screenshots
 │
-
-├── data/ # Datos fuente (datasets de canciones)
-
+├── data/                          # Source datasets
 │
-
-└── README.md # Este archivo
+└── README.md
+```
 
 ---
 
-📁 Visualizaciones
+## 📊 Visualizations
 
-En la carpeta visualization se encuentra el archivo .pbix de Power BI con todas las visualizaciones interactivas, incluyendo:
+The `visualization/` folder contains the Power BI `.pbix` file with all interactive dashboards, including:
 
-- Distribución de popularidad por año.
-- Popularidad por género.
-- Correlación entre tempo, tonalidad y duración.
-- Principales KPI’s musicales del período analizado (2016–2020).
+- Popularity distribution by year
+- Popularity by genre
+- Correlation between tempo, key and duration
+- Main musical KPIs for the analyzed period (2016–2020)
 
 ---
 
-## 🚀 Ejecución del proyecto
+## 🚀 Running the Project
 
-1. **Instalar dependencias de dbt**
-   ```bash
-   pip install dbt
-2. **Configurar la conexión a la base de datos**
-   Editar el archivo profiles.yml con tus credenciales locales.
-3. **Ejecutar el pipeline**
-   dbt run
-   dbt test
-4. **Visualizar resultados**
-   Abrir el proyecto de Power BI ubicado en visualization/Summer_Song_Analysis.pbix.
+**1. Install dbt dependencies**
+```bash
+pip install dbt
+```
+
+**2. Configure the database connection**
+Edit the `profiles.yml` file with your local credentials.
+
+**3. Run the pipeline**
+```bash
+dbt run
+dbt test
+```
+
+**4. Visualize results**
+Open the Power BI project located at `visualization/Summer_Song_Analysis.pbix`.
